@@ -29,7 +29,6 @@ export default function HomePage() {
     document.cookie = "token=; Max-Age=0; path=/;";
     router.replace("/login");
   };
-
   if (loading) {
     return (
       <div className="h-screen flex items-center justify-center">
